@@ -1,0 +1,8 @@
+SCROLL :
+
+https://alvarotrigo.com/blog/css-animations-scroll/
+
+
+VIDEO INFO : 
+
+https://codemyui.com/header-video-move-side-scroll-reveal-content/

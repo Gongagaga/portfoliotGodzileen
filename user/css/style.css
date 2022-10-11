@@ -1,0 +1,88 @@
+/* TYPO */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+font-face {
+    font-family:"Archivo Black";
+    src= url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+}
+
+font-face {
+    font-family:"Raleway";
+    src= url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+}
+
+/* GENERAL */
+
+body {
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    background-color: #080808;
+}
+
+h1, h2, h3 {
+    font-family: 'Archivo Black', sans-serif;
+    color:white;
+}
+p {
+    color:white;
+}
+
+li {
+    color:white;
+    list-style-type: none;
+}
+
+.background {
+    display:flex;
+    position:relative;
+}
+
+.bg-image {
+    margin:auto;
+    position:absolute;
+    z-index:1;
+    
+}
+
+.bg-image > img {
+    width:80%;
+    
+    
+}
+
+
+
+/* ANIMATION */
+
+/* MOBILE = au scroll, l'écran monte, le texte descend et les catégories aussi */
+.aboutMe {
+    margin:auto;
+    width:40%;
+    height:auto;
+    position:absolute;
+    opacity: 0;
+    transform: translateY(150px);
+    transition: 1s all ease;
+    top:10em;
+    left:15em;
+    z-index:2;
+    
+}
+
+.aboutMe.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+/* DESKTOP = au scroll, l'écran se décale à gauche, le texte à droite et catég aussi */
+
+@media  screen and (max-width: 1024px) {
+    
+    
+    
+}
+    
